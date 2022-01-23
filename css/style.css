@@ -63,6 +63,10 @@ section {
   color: #fff;
   border: 0.2rem solid rgba(255, 255, 255, 0.3);
   background: no-repeat;
+  background: #9C180C;
+  border-radius: 5px;
+    
+    
   font-size: 1.7rem;
   padding: 1rem 3rem;
 }
@@ -78,7 +82,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #000;
+  background: #9C180C;
   padding: 3rem 9%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,7 +225,7 @@ section {
   line-height: 7rem;
   font-size: 2.5rem;
   color: #000;
-  background: #eacf4f;
+  background: #9C180C;
   margin-bottom: 1rem;
   border-radius: 50%;
 }
@@ -428,7 +432,7 @@ section {
 .contact .row .form .icons-container .icons {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 17rem;
-          flex: 1 1 17rem;
+          flex: 1 1 1.7rem;
   text-align: center;
 }
 
@@ -437,7 +441,7 @@ section {
   width: 6rem;
   line-height: 6rem;
   border-radius: 50%;
-  background: #eacf4f;
+  background: #9C180C;
   color: #000;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -466,6 +470,7 @@ section {
   color: #fff;
   background: none;
   border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
   text-transform: none;
   width: 100%;
   margin: .7rem 0;
@@ -540,7 +545,7 @@ section {
 }
 
 .blogs .box-container .box .image .icons a:hover {
-  color: #eacf4f;
+  color: #9C180C;
 }
 
 .blogs .box-container .box .image img {
@@ -570,8 +575,8 @@ section {
 
 .footer {
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000));
-  background: linear-gradient(transparent, #000);
+  background: -webkit-gradient(linear, left top, , from(transparent), to(#9C180C));
+  background: linear-gradient(transparent, #9C180C);
 }
 
 .footer .links a {
@@ -581,7 +586,7 @@ section {
 .footer .credit {
   font-size: 2rem;
   line-height: 2;
-  color: #aaa;
+  color: #fff;
   padding-top: 2rem;
 }
 
